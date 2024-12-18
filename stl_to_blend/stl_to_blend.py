@@ -21,6 +21,6 @@ for filename in os.listdir(stl_directory):
         bpy.ops.import_mesh.stl(filepath=stl_file_path)
 
         bpy.ops.wm.save_as_mainfile(filepath=blend_file_path)
-        print(f"Procesado: {stl_file_path} -> {blend_file_path}")
+        print(f"Processing: {stl_file_path} -> {blend_file_path}")
 
-print("Todos los archivos STL se han convertido a .blend")
+print("All the STL files were succesfully converted to .blend")
